@@ -70,9 +70,9 @@ You can also benchmark a list of libraries with the following command line:
 
     $ make run BLOCK=mlpack,shogun
 
-#### Benchmarking a Single Libary and a Single Method
+#### Benchmarking a Single Library and a Single Method
 
-You can also combine the `BLOCK` and `METHODBLOCK` flag to benchmark single methods for a specific libraries. For example, if you only wanted to benchmark the MLPACK and Shogun, K-Means scripts use the following command line:
+You can also combine the `BLOCK` and `METHODBLOCK` flag to benchmark single methods for a specific library. For example, if you only wanted to benchmark the MLPACK and Shogun, K-Means scripts use the following command line:
 
     $ make run BLOCK=mlpack,shogun METHODBLOCK=KMEANS
 
@@ -130,7 +130,7 @@ settings:
     textColor: '#6E6E6E'
 ```
 * `timeout`: Limit the execution time for the benchmarks. This can be an easy way to keep a benchmark from eating up all the execution time.
-* `database`: The location of the databse. If there is no database at the specified location, the script creates a new database.
+* `database`: The location of the database. If there is no database at the specified location, the script creates a new database.
 * `keepReports`: Limit the report pages. This can be an easy way to keep a benchmark from eating up all your space.
 * `topChartColor`: The background color of the top chart.
 * `chartColor`: The background color of the charts.
